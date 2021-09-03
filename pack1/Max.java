@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Max {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // comparer deux nb
-        /*System.out.println("Entrer deux nombres reels : ");
+        /////////////////////////////////////////// comparer deux nb ///////////////////////////////////////////
+        System.out.println("Entrer deux nombres reels : ");
         double a = sc.nextDouble();
         double b = sc.nextDouble();
         
@@ -18,7 +18,7 @@ public class Max {
 
         System.out.println("le max est :"+max); 
 
-        // comparer trois nb
+        ///////////////////////////////////////////// comparer trois nb///////////////////////////////////////////
         System.out.println("Entrer trois nb : ");
         double n1 = sc.nextDouble();
         double n2 = sc.nextDouble();
@@ -31,10 +31,10 @@ public class Max {
         }else if (n3>n2){
             max1 = n3; 
         }
-        System.out.println("le max est "+max1); */
+        System.out.println("le max est "+max1); 
 
     
-         //comparer trois nb avec les operateur logique
+         /////////////////////////////////////////////comparer trois nb avec les operateur logique///////////////////////////////////////////
          System.out.println("Entrer trois nb : ");
         double nb1 = sc.nextDouble();
         double nb2 = sc.nextDouble();
@@ -50,7 +50,7 @@ public class Max {
         }
         System.out.println("le max est "+max2);
 
-        // tester si deux des trois nb sont egaux
+        ///////////////////////////////////////////// tester si deux des trois nb sont egaux///////////////////////////////////////////
 
         if (nb1==nb2 || nb1 == nb3 || nb2 == nb3){
             System.out.println("deux des trois nb sont egaux");
